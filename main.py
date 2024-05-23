@@ -1,5 +1,3 @@
-from module.ModuleClass import *
-from main_directory.Example import bye
+from module import AnotherClass
 
-hello()
-bye()
+AnotherClass.call_hello()
